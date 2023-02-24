@@ -1,4 +1,4 @@
-In Bloc generally we have to understand Teo things:-
+In Bloc generally we have to understand Two things:-
 1. Bloc event
 2. Bloc State
 => in Bloc event like a requesting data from Bloc:
@@ -14,5 +14,5 @@ In Bloc generally we have to understand Teo things:-
 
 =>main Bloc (internet bloc);
 - Here, we communicate with event & return apropriate State
-- we emit state by use on.
+- we emit state by use on function.
 
