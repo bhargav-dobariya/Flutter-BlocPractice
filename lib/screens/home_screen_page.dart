@@ -20,7 +20,7 @@ class _HomeScreenPageState extends State<HomeScreenPage> {
       ),
       //Below if we want to show change in screen widget build then we can also use BlocProvider 
       //Here, we only want to show the toast that's why we used BlocListener.
-      //if you want to show boyh then we can can implement Bloc Consumer
+      //if you want to show both then we can can implement Bloc Consumer
       body: BlocListener<InternetBloc, InternetState>(
         listener: (context, state) {
           if (state is InternetGainedState) {
